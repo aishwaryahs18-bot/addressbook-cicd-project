@@ -33,7 +33,7 @@ pipeline{
         }
         stage("deploy the project"){
             steps{
-                echo "deploying the project"
+                echo "deploying the project code in github"
                 sh "sudo cp /var/lib/jenkins/workspace/myfirstpipeline/target/addressbook.war /home/ubuntu/apache-tomcat-9.0.112/webapps"
                
             }
