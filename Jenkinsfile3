@@ -1,4 +1,4 @@
-pipeline {
+p ipeline {
     agent any
     stages {
         stage("checkout code from github") {
