@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo "git checkout starting"
                 git url: "https://github.com/akshu20791/addressbook-cicd-project/"
-                echo "git checkout done"
+                echo "git checkout done thank you"
             }
         }
 
